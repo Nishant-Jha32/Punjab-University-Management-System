@@ -32,7 +32,7 @@ The database covers the core operational workflows of **[Punjab University]**, i
 | **Enrollment** |Record of students registered in course sections. | Enroll_ID(PK), Roll_No(FK), Section_ID(FK), Semester |
 | **Result** | Performance records showing marks and grades. | Result_ID(PK), Enroll_ID(FK), Marks, Grade, GPA |
 <p align="center">
-  <img src="./ERD.jpg" alt="PU Logo" width="250">
+  <img src="./ERD.jpg" alt="PU Logo" width="500">
 </p>
 
 ## Assumptions if Any
