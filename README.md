@@ -31,6 +31,9 @@ The database covers the core operational workflows of **[Punjab University]**, i
 | **Section** | Specific classes (Morning/Evening) for a course. | Section_ID(PK), Course_Code(FK), Faculty_ID(FK) |
 | **Enrollment** |Record of students registered in course sections. | Enroll_ID(PK), Roll_No(FK), Section_ID(FK), Semester |
 | **Result** | Performance records showing marks and grades. | Result_ID(PK), Enroll_ID(FK), Marks, Grade, GPA |
+<p align="center">
+  <img src="./ERD>jpeg" alt="PU Logo" width="150">
+</p>
 
 ## Assumptions if Any
 In designing this schema, the following assumptions were made:
